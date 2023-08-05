@@ -1,0 +1,10 @@
+/* Raleway */
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway-bold';
+    src: url('../font/Raleway-SemiBold.ttf');
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codecademy Design</title>
+
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaquery.css">
+
+    <!-- Fontawesome css link -->
+    <link rel="stylesheet" href="./Font-awesome/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+    <div class="main-web">
+        <header id="header">
+            <div class="header-alert">
+                <h3 class="header-alert-title">
+                    ENDS 7/24: 50% off annual Pro memberships  <span class="alert">USE CODE: CODEINTHESUN</span>
+                </h3>
+    
+                <div class="alert-close">
+                    <i class="fa-solid fa-xmark" style="font-size: 1.2rem;"></i>
+                </div>
+            </div>
+            <div class="header-container">
+    
+                <!-- Navigation -->
+                <nav class="header-nav">
+    
+                    <div class="header-logo">
+                        <img src="./images/Codecademy.png" alt="logo" width="120px">
+                    </div>
+                    <ul class="nav-links">
+                        <li id="megaMenu">
+                            <a href="#" class="mega-btn">Catalog <i class="fa-solid fa-caret-down switch-up"></i></a>
+    
+                            <!-- Mega Menu -->
+                            <div class="header-megamenu">
+                                <div class="mega-container">
+                                    <!-- Navy -->
+                                    <div class="mega-navy">
+                                        <div class="navy-course">
+                                            <h3>Popular course topics</h3>
+                                            <p>Explore free or paid courses in topics that interest you.</p>
+                                            <button>Explore all courses</button>
+                                        </div>
+                                        <div class="navy-path">
+                                            <h3>Top career paths</h3>
+                                            <p>Choose your career. We'll teach you the skills to get job-ready.</p>
+                                        </div>
+                                    </div>
+    
+                                    <!-- White -->
+                                    <div class="mega-white">
+                                        <div class="white-courses">
+                                            <a href="#">Python</a>
+                                            <a href="#">JavaScript</a>
+                                            <a href="#">SQL</a>   
+                                            <a href="#">HTML & CSS</a>
+                                            <a href="#">Java</a>
+                                            <a href="#">C++</a>
+                                            <a href="#">C#</a>
+                                            <a href="#">Bash</a>
+                                            <a href="#">C</a>
+                                            <a href="#">PHP</a>
+                                            <a href="#">R</a>
+                                            <a href="#">Swift</a>
+                                            <a href="#">Web Development</a>
+                                            <a href="#">Data Science</a>
+                                            <a href="#">Computer Science</a>
+                                            <a href="#">Web Design</a>
+                                            <a href="#">Cybersecurity</a>
+                                            <a href="#">Machine Learning</a>
+                                        </div>
+                                        <div class="white-paths">
+                                            <a href="#">Full-Stack Engineer</a>
+                                            <a href="#">Back-End Engineer</a>
+                                            <a href="#">iOS Developer</a>
+                                            <a href="#">Front-End Engineer</a>
+                                            <a href="#">Computer Science</a>
+                                            <a href="#">Data Scientist</a>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- Take quiz -->
+                                <div class="quiz">
+                                    <i class="fa-solid fa-stairs"></i>
+                                    <p>Not sure where to begin? <a href="#" class="quiz-link">Take our quiz →</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">Resources <i class="fa-solid fa-caret-down"></i></a></li>
+                        <li><a href="#">Community <i class="fa-solid fa-caret-down"></i></a></li>
+                        <li><a href="#">Pricing <i class="fa-solid fa-caret-down"></i></a></li>
+                        <li><a href="#">For Teams</a></li>
+                    </ul>
+                </nav>
+    
+                <!--Side Navigation  -->
+                <div class="side-nav">
+                    <div class="header-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+    
+                    <a href="#" class="login-link">Log In</a>
+    
+                    <div class="hamburger">
+                        <i class="fa-solid fa-bars bars"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <section class="registration">
+            <div class="reg-container">
+    
+                <div class="reg-img">
+                    <img src="./images/code-banner.png" alt="reg-img">
+                </div>
+    
+                <div class="reg-form">
+                    <form id="reg-form">
+                        <div class="form-container">
+                            <div class="form-title">
+                                <h2>Join the millions learning to code with Codecademy for free</h2>
+                            </div>
+    
+                            <label class="form-label" for="email">Email</label>
+                            <input type="email" name="Email" id="email">
+
+                            <p class="email-message">Invalid email address</p>
+                        
+
+                            <label class="form-label" for="password">Password
+                                 <div class="warning">
+                                    <p class="dec-p">i</p>
+                                    <div class="password-warning">
+                                        <p class="no-1">Make sure your password is at least 8 characters and contains:</p>
+                                        <ul>
+                                            <li>At least 1 uppercase letter and 1 lowercase letter</li>
+                                            <li>At least 1 number</li>
+                                            <li>At least 1 special character (like @#%^)</li>
+                                        </ul>
+                                        <p class="no-2">Avoid common passwords or strings like “password”, “qwerty”, or “12345”.</p>
+                                    </div>
+                                </div>
+                            </label>
+                            <input type="password" name="Password" id="password">
+
+                            <p class="password-message">Invalid password</p>
+
+                            <div class="check">
+                                <input type="checkbox" name="checkbox" id="checkbox">
+                                <label for="checkbox">Show Password</label>
+                            </div>
+                            <input type="submit" class="reg-btn" value="Sign Up">
+    
+                            <div class="reg-txt">
+                                <p>By signing up for Codecademy, you agree to Codecademy's <a href="#">Terms of Service</a> & <a href="#">Privacy Policy</a>.</p>
+                            </div>
+            
+                            <div class="socials">
+                                <p>Or sign up using:</p>
+            
+                                <div class="socials-btn">
+                                    <button class="reg-social"><i class="fa-brands fa-google"></i></button>
+                                    <button class="reg-social"><i class="fa-brands fa-facebook"></i></button>
+                                    <button class="reg-social"><i class="fa-brands fa-linkedin"></i></button>
+                                    <button class="reg-social"><i class="fa-brands fa-github"></i></button>
+                                    <button class="reg-social"><i class="fa-brands fa-apple"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+    
+                </div>
+    
+            </div>
+        </section>
+    </div>
+
+    <div class="hamburger-web">
+        <header id="ham-header">
+            <div class="ham-header-con">
+                <div class="ham-logo">
+                    <img src="./images/Codecademy.png" alt="logo" width="120px">
+                </div>
+                <div class="ham-exit">
+                    <i class="fa-solid fa-xmark exit"></i>
+                </div>
+            </div>
+        </header>
+        <section id="ham-body">
+            <div class="body-container">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search our catalog">
+                    <i class="fa-solid fa-magnifying-glass glass"></i>
+                </div>
+                <ul class="ham-links">
+                    <li><a href="#">Catalog <i class="fa-solid fa-caret-right"></i></a></li>
+                    <li><a href="#">Resources <i class="fa-solid fa-caret-right"></i></a></li>
+                    <li><a href="#">Community <i class="fa-solid fa-caret-right"></i></a></li>
+                    <li><a href="#">Pricing <i class="fa-solid fa-caret-right"></i></a></li>
+                    <li><a href="#">For Teams <i class="fa-solid fa-caret-right"></i></a></li>
+                </ul>
+                <div class="s-or-l">
+                    <button class="s">Sign Up</button>
+                    <button class="l">Log In</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer id="footer">
+        <div class="footer-container">
+            <p>Copyright © 2023 made by Ebube Donald Igbo | All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
